@@ -190,13 +190,13 @@ Quy trình nháp hiện tại:
 | Pitch Problem Card | Trình bày 3 ý kiến bản thân từ CP2 | |
 | Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: Làm sao HR có thể nhận biết ứng viên sắp đổi ý khi họ có thể nhận được một offer tốt hơn bất kỳ lúc nào? Dữ liệu TKQC và CRM thường có độ trễ (delay) hoặc sai số tracking. AI có giải quyết được sự sai lệch dữ liệu gốc này không, hay chỉ giúp cộng trừ nhanh hơn? Khách hàng hay dùng từ lóng, viết sai chính tả, mô tả lan man. AI có cam kết sai số thấp hơn 12% hiện tại? Nếu AI gán sai ticket "cháy nhà" thành "bình thường" thì hậu quả ai chịu? Nếu ứng viên sử dụng AI để hoàn thành bài test nhưng vẫn hiểu và giải thích được cách làm thì sao? Vấn đề thực sự là thông tin tuyển dụng không rõ ràng hay do Hiring Manager liên tục thay đổi nhu cầu nhân sự?|Làm rõ để hiểu hơn về vấn đề này |
 | Nhận phản biện | Câu hỏi tôi nhận được:Văn hóa công ty lấy từ đâu khi không quá nhiều công ty publish vấn đề này. Nếu vấn đề này không được giải quyết thì ,hậu quả lớn nhất là gì. Nếu ứng viên cố thêm từ khóa để vượt ATS nhưng không có kỹ năng thực tế, liệu có làm giảm chất lượng tuyển dụng không?| Tôi đã sửa gì: Có thể là những văn hóa chung, quy tắc ngầm trong công ty chung được chia sẻ rộng rãi thì mình có thể tham khảo để biết trước. Nếu vấn đề không được giải quyết thì ứng viên có thể không biết định hướng trong ngành để điều chỉnh bản thân phù hợp với vị trí khiến việc tuyển dụng không được suôn sẻ. Ứng viên có thể cố thêm từ khóa để qua vòng ATS nhưng mà ở những vòng sau sẽ kiểm tra kiến thức chuyên môn của ứng viên nên có thể giúp ứng viên vượt qua vòng CV nhưng mà sẽ khiến họ dễ rớt hơn ở vòng đánh giá năng lực |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Gom cluster / cây OST |Tham gia rà soát pattern chung và đồng thuận gom 3 ý tưởng của tôi cùng 1 ý tưởng của Minh vào chung Cluster A |Giúp nhóm hệ thống hóa các ý tưởng rời rạc thành 5 nhóm mạch lạc, rút gọn được cây OST |
+| Chọn candidate problem |Cùng nhóm chấm điểm các ý tưởng trong shortlist và thống nhất chọn problem #10 của Hùng. |Góp phần đưa ra quyết định chọn bài toán khả thi nhất cho lab (đạt 29/35 điểm, số liệu đo lường rõ ràng). |
+| Kiểm chứng / research |Đề xuất đưa rủi ro về độ trễ và sai số của dữ liệu đầu vào (TKQC, CRM) vào các giả định trọng yếu cần kiểm chứng (Assumption Map). |Định hướng nhóm ưu tiên việc xác minh tính khả thi của dữ liệu và chốt quy tắc trước khi xây giải pháp. |
+| Quy trình nhóm |Đóng góp ý kiến vào việc phân chia ranh giới ở quy trình tương lai (TO-BE), thống nhất giữ lại bước con người kiểm tra ngoại lệ. |Giúp luồng thiết kế TO-BE thực tế và an toàn hơn, tránh phó mặc hoàn toàn việc đối soát chốt số cho máy |
+| Problem Statement |Đóng góp trực tiếp vào phần Boundary (Ranh giới), khẳng định giải pháp không được tự sửa số liệu tracking bị sai. |Giúp Problem Statement v1 chặt chẽ, thu hẹp đúng phạm vi xử lý thành tổng hợp bản xuất chứ không sửa dữ liệu gốc. |
+| Mức can thiệp AI |Thảo luận và đồng tình với nhóm chọn mức "Rule" (tự động hóa đối chiếu/tính toán) thay vì Workflow hay Agent. |Đánh giá đúng đặc thù bài toán (độ mơ hồ thấp, cần tính chính xác), giúp nhóm né được rủi ro AI tự suy diễn số liệu báo cáo. |
+| Quyết định |Đồng thuận với quyết định "Not Yet", chỉ ra sự thiếu hụt về bản xuất dữ liệu thực tế và quyền vận hành ở thời điểm hiện tại. |Chốt được hướng đi an toàn: ưu tiên kiểm chứng thực tế và thu thập mẫu file hợp lệ trước khi tiến hành pilot. |
 
 ---
 
@@ -206,10 +206,10 @@ Quy trình nháp hiện tại:
 |---|---|---|---|---|
 | CP1 Scan |Tôi dùng AI để có cái nhìn toàn diện hơn về vị trí của Actor | AI hữu ích ở chỗ có nhiều thông tin từ các khía cạnh khác nhau trong vấn đề | AI sai ở chỗ đi thẳng vào vấn đề thật sự quan trọng | Sửa nội dung cho phù hợp với trải nghiệm của Actor |
 | CP2 Problem Card |Tôi dùng AI để tóm tắt nội dung từ CP1 để điền vào Problem Card | AI hữu ích ở chỗ nhìn ra đúng điểm cần điền |Không có|Không có |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| CP4 Research |Nhờ AI tìm kiếm nhanh các giải pháp công cụ (như Looker Studio, Supermetrics, hàm SUMIFS) có thể giải quyết khâu đối chiếu dữ liệu |Liệt kê nhanh tính năng của các tool và tóm tắt được tài liệu chính thức từ hãng |AI thường mặc định các công cụ này "phù hợp" luôn mà bỏ qua việc dữ liệu gốc của nhóm đang rất lộn xộn |Ghi chú thêm bài học cho nhóm: không vội chốt tool mà phải chuẩn hóa quy tắc gán chi nhánh và khóa dữ liệu trước |
+| CP5 Quy trình |Dùng AI để phác thảo nháp các bước phân rã trong quy trình hiện tại (As-Is) và tương lai (To-Be) |Trình bày các bước mạch lạc và tự động cộng trừ thời gian tổng (target 30 phút) rất chuẩn |AI tự phân bổ thời gian cho từng bước nhỏ (vd: đối chiếu mất 15 phút) mang tính suy diễn, chưa dựa trên thực tế |Đóng góp ý kiến thêm vào bản báo cáo rằng các mốc thời gian này chỉ là giả định/mục tiêu thiết kế, cần phải đo lại (baseline) |
+| CP5–6 Problem Statement |Đưa bản nháp Problem Statement v0 cho AI đọc để tìm xem nhóm còn thiếu sót góc nhìn nào không |Phát hiện ra lỗ hổng chí mạng: nếu chỉ đo bằng thời gian hoàn thành thì "nhanh nhưng lệch số" vẫn bị tính là đạt |Đưa ra một số gợi ý tiêu chí đánh giá khá chung chung và thiên về việc thêm tính năng cho máy |Cùng nhóm thảo luận chốt bản v1: bổ sung phần ràng buộc (Boundary) là không được tự sửa tracking và thêm tiêu chí đối soát tổng tiền |
+| CP6 Mức can thiệp / quyết định |Hỏi AI gợi ý xem bài toán 9 TKQC này nên nằm ở mức can thiệp nào (Rule, Workflow hay Agent) |So sánh rõ ràng rủi ro giữa việc dùng Rule (an toàn) và Agent (khó kiểm soát số liệu) |Đôi lúc có xu hướng mớm lời khuyên dùng mức cao hơn (như AI tự viết nhận định báo cáo) dù không cần thiết |Bác bỏ gợi ý phức tạp của máy, đồng thuận chốt mức "Rule" và ra quyết định "Not Yet" vì rủi ro dữ liệu đầu vào hiện tại quá cao |
 
 ---
 
@@ -224,13 +224,13 @@ Không
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
 Có. Từ câu khi làm bài test tôi muốn có insight ngành và outline thì có nhận ra là insight ngành ở đây là gì vì mỗi người mỗi nơi mỗi ý về insight không phải insight ai cũng giống nhau nên sẽ cần một nguồn tổng hợp đáng tin cậy hơn 
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
-
+Kết quả research thực sự làm tôi khá bất ngờ. Ban đầu, tôi cứ nghĩ chỉ cần áp dụng những công cụ mạnh như Looker Studio, Supermetrics hoặc thậm chí đưa AI vào là sẽ tự động nối được dữ liệu ngay. Nhưng khi tìm hiểu kỹ tài liệu, tôi nhận ra công cụ chỉ xịn khi dữ liệu gốc (data pipeline) đã được chuẩn hóa. Điều bất ngờ nhất là rào cản cốt lõi không nằm ở việc tính toán chậm, mà là sự lộn xộn giữa 9 tài khoản quảng cáo và CRM: không cùng định dạng, thiếu quy tắc chốt kỳ và gán chi nhánh chung. Điều này làm tôi thức tỉnh rằng nếu dữ liệu rác (garbage in) thì hệ thống nào cũng chỉ trả về rác (garbage out), không có AI nào tự "phép thuật" dọn dẹp được sự phân mảnh này nếu thiếu rule từ con người.
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
-
+Điều khó nhất là xác định Ranh giới (Boundary) và Tiêu chí đo lường (Success Metric) sao cho không bị rơi vào bẫy "over-promise" (hứa hẹn quá mức). Rất dễ để viết bâng quơ rằng "AI giúp báo cáo tự động và làm nhanh hơn". Tuy nhiên, khi ép vào framework của bài, nhóm phải tranh luận để vạch ra giới hạn an toàn: tuyệt đối không cho phép tự sửa lỗi tracking bị sai, không được tự suy đoán nguồn đơn nếu CRM để trống, và không tự động cập nhật ngân sách. Ngoài ra, việc ràng buộc thời gian (giảm từ 45 xuống 30 phút) đi kèm với điều kiện "tổng tiền không được lệch một đồng nào" khiến việc viết Problem Statement từ bản v0 lên v1 phải cân nhắc từng câu chữ để đảm bảo tính thực tế.
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
 Nếu làm lại thì tôi nghĩ tôi sẽ đổi phương thức theo dõi, thay vì theo dõi thời lượng thì sẽ theo dõi tần suất nếu công việc đó dài cỡ 1-2 tiếng nhưng mà một tuần mới làm một lần hoặc khi có cập nhật lớn nào đó mới thay đổi thì nó cũng sẽ even out hoặc sẽ impact nhiều hơn. Tôi sẽ phản biện nhóm mạnh hơn ở quá trình giải quyết vấn đề liệu nó có thật sự tạo ra ảnh hưởng to lớn nào không hay chỉ là những minor change
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
-
+Vấn đề nhóm em chọn là việc Performance Marketer tốn quá nhiều thời gian để tổng hợp chi phí từ 9 tài khoản quảng cáo và đối chiếu doanh thu từ CRM theo 3 chi nhánh riêng biệt. Quy trình hiện tại đòi hỏi thao tác tay rất nhiều: mở từng nguồn, lấy số, tự ghép nối bằng Excel, tìm dữ liệu thiếu rồi mới tính toán được các chỉ số %CPQC và ROAS. Để đo lường hiệu quả giải pháp, nhóm đặt ra metric là giảm thời gian làm báo cáo xuống dưới 30 phút, nhưng phải đáp ứng điều kiện tổng tiền khớp 100% với bản xuất. Ranh giới (Boundary) được thiết kế cực kỳ chặt chẽ: công cụ chỉ được quyền đọc bản xuất dữ liệu, tuyệt đối không được tự động sửa tracking sai hay điền bừa số liệu thiếu, mọi ngoại lệ đều phải dừng lại để con người duyệt. Vì bản chất bài toán đòi hỏi tính chính xác tuyệt đối của phép toán số học (không cần dự đoán hay sinh nội dung), nhóm chốt mức can thiệp là Rule (tự động hóa theo quy tắc) chứ không dùng tới AI. Cuối cùng, nhóm đưa ra quyết định "Not Yet" vì nhận thấy rủi ro về độ khả thi dữ liệu đang quá cao, cần phải có file dữ liệu mẫu hợp pháp và chốt được quy tắc vận hành trước khi tiến hành làm pilot.
 ---
 
 ## 7. Tài liệu tham khảo
