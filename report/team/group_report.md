@@ -10,7 +10,7 @@
 - Candidate problem được chọn (1 câu): **Candidate Performance Marketer của Hùng — Khi đến kỳ báo cáo, người phụ trách performance marketing muốn tổng hợp chi phí từ 9 tài khoản quảng cáo (TKQC) và đối chiếu doanh thu CRM theo 3 chi nhánh, để tính nhất quán %CPQC và ROAS phục vụ đánh giá hiệu quả quảng cáo.**
 - Quyết định cuối: **Not Yet** — ưu tiên hướng **Rule**, cần xác minh dữ liệu, cách tính và baseline trước khi pilot; chưa có cơ sở triển khai AI.
 
-**Nguồn và trạng thái bản báo cáo:** Mục 2.1 chuyển nội dung từ sheet `Trang tính1`, vùng B2:F13 của `CP Nhóm Lab Day 02.xlsx` do học viên cung cấp. Sheet `CP4` không có nội dung. Điểm shortlist, quy trình chi tiết, target, phương án và quyết định bên dưới là **đề xuất phân tích có AI hỗ trợ**, cần nhóm tự rà soát và xác nhận. Những số liệu có trong Excel là số liệu ghi trong bản pitch, chưa có log đo để kiểm chứng; không coi chúng là kết quả phỏng vấn hoặc thử nghiệm.
+
 
 ---
 
@@ -20,20 +20,20 @@
 
 | # | Người đưa ra | Candidate (Job Story ngắn) | Actor | Bottleneck | Câu hỏi phản biện nhận được (ai hỏi) |
 |---:|---|---|---|---|---|
-| 1 | Hải | Khi nộp CV, tôi muốn thể hiện kinh nghiệm phù hợp với JD rõ ràng, để hồ sơ được xem xét đúng năng lực. | Ứng viên | Viết lại kinh nghiệm và căn chỉnh format: 60 phút theo pitch. | Minh: Thêm từ khóa để vượt ATS khi không có kỹ năng thật có làm giảm chất lượng tuyển dụng? Trả lời trong Excel: các vòng sau vẫn kiểm tra chuyên môn, thêm từ khóa không thay thế năng lực. |
+| 1 | Hải | Khi nộp CV, tôi muốn thể hiện kinh nghiệm phù hợp với JD rõ ràng, để hồ sơ được xem xét đúng năng lực. | Ứng viên | Viết lại kinh nghiệm và căn chỉnh format: 60 phút theo pitch. | Minh: Thêm từ khóa để vượt ATS khi không có kỹ năng thật có làm giảm chất lượng tuyển dụng? Các vòng sau vẫn kiểm tra chuyên môn, thêm từ khóa không thay thế năng lực. |
 | 2 | Hải | Khi làm bài test tuyển dụng, tôi muốn hiểu bối cảnh ngành và xác định hướng làm, để không mất thời gian mò mẫm. | Ứng viên | Tìm insight thị trường và hướng đi ban đầu: 3 giờ theo pitch. | Hùng: Nếu không giải quyết thì hậu quả lớn nhất là gì? Trả lời: ứng viên khó định hướng và điều chỉnh bản thân phù hợp vị trí. |
 | 3 | Hải | Khi chuẩn bị phỏng vấn, tôi muốn hiểu thông tin và văn hóa công ty, để chuẩn bị phù hợp. | Ứng viên | Thu thập thông tin nhiều nguồn và kiểm tra phản ánh tiêu cực: 3 giờ theo pitch. | Bảo: Lấy thông tin văn hóa từ đâu khi nhiều công ty không công bố? Trả lời: tham khảo thông tin chia sẻ công khai; chưa có bằng chứng xác nhận văn hóa của công ty cụ thể. |
 | 4 | Minh | Khi ứng viên nộp technical test, tôi muốn xác minh năng lực thực tế, để tránh đánh giá chỉ dựa vào bài nộp. | HR Recruiter, Tech Lead, Hiring Manager | Kiểm tra lại tư duy và khả năng giải thích; Excel chưa ghi thời gian. | Hải: Nếu ứng viên dùng AI nhưng vẫn hiểu và giải thích được thì sao? Trả lời: dùng công cụ hỗ trợ không phải vấn đề; cần kiểm tra khả năng hiểu và vận dụng. |
 | 5 | Minh | Khi ứng viên đã nhận offer nhưng chưa đi làm, tôi muốn làm rõ sớm các trở ngại, để hạn chế gián đoạn tuyển dụng. | HR Recruiter, ứng viên, Hiring Manager | Chưa biết ứng viên đổi ý cho tới khi họ thông báo hoặc không nhận việc; chưa có thời gian đo. | Hải hỏi cách nhận biết khi ứng viên có thể nhận offer khác; Hùng hỏi hậu quả; Bảo hỏi rủi ro nếu giải pháp sai. Trả lời: không dự đoán chắc cam kết; tập trung vướng mắc có thể kiểm chứng, tránh đánh giá thiếu công bằng. |
 | 6 | Minh | Khi nhận yêu cầu tuyển dụng, tôi muốn thống nhất kỹ năng, kinh nghiệm và ngân sách, để không tìm theo tiêu chí thiếu khả thi hoặc thay đổi liên tục. | HR Recruiter, Hiring Manager, HR Manager | Trao đổi và sửa JD nhiều lần; Excel chưa ghi số lần hoặc thời gian. | Hải: Thông tin chưa rõ hay Hiring Manager thay đổi nhu cầu? Trả lời: cần tách hai nguyên nhân và kiểm chứng nguyên nhân chính. |
 | 7 | Bảo | Khi chuẩn bị meetup thứ Sáu sau nhiều thay đổi được merge, tôi muốn biết thay đổi nào đáng trình bày kèm nguồn, để báo cáo chính xác. | EM/Tech Lead phụ trách báo cáo thay đổi | Đọc mô tả/diff: khoảng 40 phút/lần; tổng quy trình khoảng 170 phút/tuần theo pitch. | Minh: Thế nào là thay đổi đáng báo cáo; mọi PR có giá trị với người dùng không? Trả lời: cần tiêu chí từ quy trình review và báo cáo của Tech Lead. |
-| 8 | Bảo | Khi ticket/email đến đầu ngày, tôi muốn phân loại và chuyển đúng người, để xử lý việc gấp trước. | CS trực phân loại | Khoảng 1,5 phút/ticket, 12% chuyển nhóm sai, 1.500 ticket/tháng theo pitch. | Hải hỏi sai số và trách nhiệm khi bỏ sót ticket khẩn; Hùng hỏi vấn đề cốt lõi và hậu quả. Trả lời trong Excel: cần baseline, tiêu chí chất lượng rõ và fallback; chưa có kết quả hệ thống mới. |
+| 8 | Bảo | Khi ticket/email đến đầu ngày, tôi muốn phân loại và chuyển đúng người, để xử lý việc gấp trước. | CS trực phân loại | Khoảng 1,5 phút/ticket, 12% chuyển nhóm sai, 1.500 ticket/tháng theo pitch. | Hải hỏi sai số và trách nhiệm khi bỏ sót ticket khẩn; Hùng hỏi vấn đề cốt lõi và hậu quả.  cần baseline, tiêu chí chất lượng rõ và fallback; chưa có kết quả hệ thống mới. |
 | 9 | Bảo | Khi vừa họp xong, tôi muốn ghi rõ biên bản, quyết định và việc cần làm kèm người phụ trách, để không bỏ sót. | Người chủ trì họp, PM/Lead | Viết biên bản/action item: khoảng 25 phút/cuộc, 15 cuộc/tuần theo pitch. | Minh: Phân biệt đề xuất đang tranh luận với quyết định chính thức thế nào? Trả lời: ghi lại rồi review nội dung; vẫn cần người chủ trì xác nhận quyết định. |
 | 10 | Hùng | Khi tới kỳ báo cáo, tôi muốn gom chi phí TKQC và đối chiếu CRM theo chi nhánh, để tính %CPQC/ROAS nhất quán. | Performance Marketer | Tự mở 9 TKQC và đối chiếu CRM theo 3 chi nhánh: khoảng 45 phút/lần, 2 lần/tuần, tổng 90 phút/tuần theo pitch. | Hải: AI có giải quyết độ trễ và sai tracking của dữ liệu gốc hay chỉ cộng trừ nhanh hơn? Trả lời của Hùng trong Excel: chất lượng data pipeline nằm ngoài phạm vi bước AI. |
-| 11 | Hùng | Khi cần biết đơn tới từ nguồn nào, tôi muốn đối chiếu hội thoại CSKH với đơn CRM, để xác định kênh và nhân viên tạo đơn. | Performance Marketer, nhân viên CSKH | Dò số điện thoại giữa 2 hệ thống: khoảng 5 phút/đơn, 20 đơn/tuần, tổng 100 phút/tuần theo pitch. | Bảo hỏi làm rõ yêu cầu. Trả lời trong Excel: vấn đề cốt lõi là dữ liệu bị phân mảnh. |
-| 12 | Hùng | Khi kiểm tra hiệu suất hôm trước, tôi muốn nhận biết chiến dịch có chỉ số chi phí vượt ngưỡng, để kịp xem xét điều chỉnh. | Performance Marketer | Tự tính %CPQC cho 9 TKQC: khoảng 15 phút/ngày làm việc, tổng 75 phút/tuần theo pitch. | Ô F13 trong Excel chưa có phản biện. Bản pitch gọi là chiến dịch “lỗ”; cần thêm dữ liệu chi phí/lợi nhuận trước khi kết luận lỗ hoặc tự tắt chiến dịch. |
+| 11 | Hùng | Khi cần biết đơn tới từ nguồn nào, tôi muốn đối chiếu hội thoại CSKH với đơn CRM, để xác định kênh và nhân viên tạo đơn. | Performance Marketer, nhân viên CSKH | Dò số điện thoại giữa 2 hệ thống: khoảng 5 phút/đơn, 20 đơn/tuần, tổng 100 phút/tuần theo pitch. | Bảo hỏi làm rõ yêu cầu.  vấn đề cốt lõi là dữ liệu bị phân mảnh. |
+| 12 | Hùng | Khi kiểm tra hiệu suất hôm trước, tôi muốn nhận biết chiến dịch có chỉ số chi phí vượt ngưỡng, để kịp xem xét điều chỉnh. | Performance Marketer | Tự tính %CPQC cho 9 TKQC: khoảng 15 phút/ngày làm việc, tổng 75 phút/tuần theo pitch. | Chưa có phản biện |
 
-Các Job Story được biên tập gọn, giữ mục đích của bản pitch. Riêng #1 bỏ cách diễn đạt “khớp từ khóa tự động” khỏi phần problem; #12 tách chỉ số quảng cáo khỏi kết luận lợi nhuận. Câu hỏi và câu trả lời có ghi nguồn đều lấy từ Excel; không bổ sung hội thoại giả định như thể đã diễn ra.
+Các Job Story được biên tập gọn, giữ mục đích của bản pitch. Riêng #1 bỏ cách diễn đạt “khớp từ khóa tự động” khỏi phần problem; #12 tách chỉ số quảng cáo khỏi kết luận lợi nhuận.
 
 ### 2.2. Cluster
 
@@ -86,7 +86,7 @@ Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 - #11 của Hùng để vòng sau vì cần quy tắc quy nguồn đơn và đối chiếu dữ liệu khách hàng; không gộp bài toán attribution vào phép cộng báo cáo.
 - #12 của Hùng để vòng sau vì nhận biết “lỗ” và quyết định tắt quảng cáo cần thêm chi phí ngoài quảng cáo, độ trễ chuyển đổi và người duyệt.
 
-**Xử lý bất đồng (nếu có):** Excel chưa ghi nhận bất đồng về lựa chọn cuối. Không suy diễn đã có đồng thuận; nhóm cần tự xác nhận lựa chọn #10 và bảng điểm trước khi nộp.
+
 
 ---
 
@@ -103,7 +103,7 @@ Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 | 5 | Marketer kiểm tra và sửa được báo cáo theo mẫu trong tối đa 30 phút/lần, gồm cả lấy dữ liệu. | Usability | 4 | 1 | Có — thử thao tác trên cùng bộ dữ liệu với cách cũ. |
 | 6 | Đơn vị cho phép xử lý bản xuất dữ liệu; có người phụ trách và chi phí vận hành được chấp nhận. | Viability | 5 | 1 | Có — xác nhận trước mọi pilot trên dữ liệu thật. |
 
-*Điền 4–6 giả định; xóa dòng thừa.*
+
 
 Giả định nhóm kiểm chứng trong buổi này: **Chưa có kết quả kiểm chứng trong tài liệu nguồn.** Ưu tiên đề xuất là #2, #3 và #4 trước, vì nếu không lấy được dữ liệu hoặc không thống nhất cách đối chiếu thì chưa thể lập báo cáo đúng; sau đó đo #1 và thử #5. #6 là điều kiện trước khi sử dụng dữ liệu nội bộ.
 
@@ -113,7 +113,7 @@ Cách đã dùng: **Đọc bảng pitch và phản biện trong Excel. Chưa có
 
 Kế hoạch đề xuất: phỏng vấn 2–3 người thật sự làm báo cáo tương tự, không thay bằng thành viên nhóm; ghi vai trò, thời điểm và hình thức hỏi. Hỏi về lần báo cáo gần nhất: đã mở những nguồn nào, bước nào lâu nhất, lần lệch số gần nhất xử lý ra sao, công cụ đang dùng đã giải được phần nào. Nếu được phép, quan sát ít nhất 2 kỳ báo cáo và giữ bản xuất đã ẩn thông tin khách hàng để đối soát.
 
-Interview snapshot (mỗi buổi phỏng vấn một bảng, hoặc đặt file trong `report/assets/cp4-interview-snapshot-N.md`):
+Interview snapshot:
 
 | Trường | Nội dung |
 |---|---|
