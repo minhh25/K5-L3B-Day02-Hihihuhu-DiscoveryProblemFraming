@@ -71,36 +71,89 @@ HIỆN TẠI — ~170 phút/tuần (ước tính, cần bấm giờ)
 → [7 Review + kiểm tra sót/sai: 15']
 ```
 
-### Card #2 và #3 (tóm tắt)
+### Problem Card #2
 
-| Card | Actor | Bottleneck | Metric | Cảm nhận nhanh |
-|---|---|---|---|---|
-| Phân loại ticket | CS trực phân loại đầu ngày | Đọc và gán nhóm/mức ưu tiên ~1,5 phút/ticket, ~12% chuyển nhóm sai | 1,5 phút → dưới 20 giây/ticket (có người duyệt); chuyển nhóm sai 12% → dưới 6% | Rule, rồi Workflow |
-| Biên bản họp | Người chủ trì họp (PM/lead) | Viết biên bản và action item ~25 phút/cuộc | 25 → dưới 8 phút (chỉ còn review); action item còn theo dõi sau 1 tuần từ 50% → ≥80% | Workflow |
-
-### AI phản biện card #1 (chỉ nêu điểm yếu)
-
-| Câu hỏi | Điểm yếu |
+| Trường | Nội dung |
 |---|---|
-| 1. Actor đủ cụ thể chưa? | "EM/tech lead" là vai trò, chưa phải một người; mỗi team có thể làm khác nhau, hoặc không ai làm đều đặn |
-| 2. Quy trình có thật không? | 7 bước và số phút dựng từ giả định; chưa biết người đó có thực sự đọc diff hay chỉ đọc tiêu đề PR |
-| 3. Bottleneck có phải một bước cụ thể? | Bước 3 (đọc) và bước 4 (chờ người khác) khó tách; AI tóm tắt không rút ngắn thời gian chờ; nếu mô tả PR do agent viết kém thì AI tóm tắt cũng sai |
-| 4. Metric đo được không? | "Độ phủ" cần danh sách chuẩn gắn nhãn tay, tốn công; "đáng nói" là phán đoán chủ quan; baseline 170 phút chưa bấm giờ |
-| 5. Sửa quy trình hoặc rule đã đủ chưa? | PR template + nhãn + release notes tự sinh bắt agent ghi tác động ngay lúc tạo PR có thể giải quyết gần hết, và rẻ hơn |
-| 6. Có nhảy sang AI quá sớm không? | Gốc vấn đề là agent tạo thay đổi nhanh hơn khả năng theo dõi; thêm một lớp AI đọc output của AI có nguy cơ sai chồng sai mà không ai phát hiện |
-| 7. Sản phẩm trên thị trường có giải tốt hơn không? | Công cụ tóm tắt PR và release notes tự sinh (ví dụ của GitHub, các công cụ review code, Jira/Linear) có thể đã làm phần lớn; cần xem lại hiện trạng trước khi tự xây |
+| Job Story | Khi ticket/email khách hàng đổ về đầu ngày, tôi muốn mỗi ticket được phân loại, gán mức ưu tiên và gửi đúng người, để xử lý việc gấp trước và không phải chuyển nhóm lại |
+| Actor | CS trực phân loại đầu ngày (một người cụ thể, chọn khi chạy lab) |
+| Thời điểm / bối cảnh | Đầu ngày làm việc, ticket/email tồn qua đêm đổ về cùng lúc; ~1.500 ticket/tháng; CS phải đọc từng ticket rồi gán nhóm xử lý và mức ưu tiên |
+| Quy trình hiện tại (3–7 bước) | 1. Mở hộp ticket/email mới → 2. Đọc nội dung từng ticket → 3. Xác định loại (lỗi kỹ thuật, thanh toán, hỏi thông tin...) → 4. Gán mức ưu tiên → 5. Chuyển đúng nhóm xử lý → 6. Nhóm nhận thấy sai nhóm thì chuyển lại (~12%) |
+| Bottleneck (bước nào, mất bao nhiêu phút) | Bước 2-4, đọc và gán nhóm/mức ưu tiên: ~1,5 phút/ticket (ước tính, chưa bấm giờ). Phần chuyển nhóm sai ~12% làm thời gian phản hồi đầu tiên kéo dài (~4 giờ) |
+| Impact (nếu không giải thì sao) | Ticket gấp bị xử lý muộn vì lẫn trong hàng đợi; ~12% ticket đi vòng qua nhóm sai; khách chờ lâu, CS dành hàng giờ mỗi sáng cho việc phân loại lặp lại |
+| Success metric (baseline → target) | Thời gian phân loại: 1,5 phút → dưới 20 giây/ticket (có người duyệt). Tỷ lệ chuyển nhóm sai: 12% → dưới 6%. Ticket gấp không bị gán thấp hơn mức thật: 0 ca trong mẫu kiểm |
+| Phương án không dùng AI | Rule theo từ khóa/kênh gửi/biểu mẫu bắt buộc chọn loại ticket; tách hộp thư theo nhóm xử lý; checklist mức ưu tiên cho CS |
+| Giả thuyết về AI (nếu có) | Rule lọc trước các ticket rõ ràng; AI gợi ý nhóm + mức ưu tiên cho ticket còn lại kèm độ tin cậy; ticket độ tin cậy thấp hoặc có dấu hiệu khẩn đi thẳng cho CS. CS duyệt trước khi chuyển |
+| Cảm nhận nhanh | Rule, rồi Workflow |
+
+Quy trình nháp hiện tại:
+
+```text
+HIỆN TẠI — ~1,5 phút/ticket × ~1.500 ticket/tháng (ước tính, cần bấm giờ)
+
+[1 Mở hộp ticket mới: 2'/lượt] → [2 Đọc nội dung từng ticket: ~1']
+→ [3 Xác định loại + mức ưu tiên: ~30"] ← BOTTLENECK
+→ [4 Chuyển nhóm xử lý: ~10"]
+→ [5 Nhóm nhận, phát hiện sai nhóm, chuyển lại: ~12% ticket] ← BOTTLENECK
+```
+
+### Problem Card #3
+
+| Trường | Nội dung |
+|---|---|
+| Job Story | Khi vừa họp xong 45 phút, tôi muốn có biên bản, quyết định và việc cần làm kèm người phụ trách và hạn, để không phải ngồi viết lại và không ai quên việc |
+| Actor | Người chủ trì họp (PM/lead) |
+| Thời điểm / bối cảnh | Ngay sau cuộc họp; ~15 cuộc/tuần; nội dung có cả ý kiến tranh luận chưa chốt lẫn quyết định chính thức |
+| Quy trình hiện tại (3–7 bước) | 1. Vừa họp vừa ghi chú rời rạc → 2. Họp xong, đọc lại ghi chú/nhớ lại → 3. Tách quyết định khỏi ý kiến đang tranh luận → 4. Viết biên bản và liệt kê action item (người phụ trách, hạn) → 5. Gửi người tham dự → 6. Một tuần sau mới nhắc việc, nhiều action item đã bị quên |
+| Bottleneck (bước nào, mất bao nhiêu phút) | Bước 2-4, viết biên bản và action item: ~25 phút/cuộc (ước tính, chưa bấm giờ). Bước 6, không có cơ chế theo dõi nên sau 1 tuần chỉ còn ~50% action item được theo dõi |
+| Impact (nếu không giải thì sao) | ~25 phút × 15 cuộc ≈ 6 giờ/tuần cho người chủ trì; action item bị quên, họp lại để nhắc lại việc đã chốt |
+| Success metric (baseline → target) | Thời gian soạn biên bản: 25 → dưới 8 phút/cuộc (chỉ còn review). Action item còn theo dõi sau 1 tuần: 50% → ≥80%. Quyết định ghi sai (đề xuất bị ghi thành quyết định): 0 ca trong mẫu kiểm |
+| Phương án không dùng AI | Mẫu biên bản cố định (quyết định / action item / chưa chốt); chỉ định người ghi chép luân phiên; nhắc việc bằng checklist trong công cụ quản lý công việc |
+| Giả thuyết về AI (nếu có) | Phase 1: ghi lại cuộc họp và tóm tắt theo mẫu (quyết định / action item / chưa chốt). Phase 2: tự review để lọc nội dung rác, off-topic. Người chủ trì xác nhận quyết định trước khi gửi |
+| Cảm nhận nhanh | Workflow |
+
+Quy trình nháp hiện tại:
+
+```text
+HIỆN TẠI — ~25 phút/cuộc × ~15 cuộc/tuần (ước tính, cần bấm giờ)
+
+[1 Vừa họp vừa ghi chú rời: trong họp] → [2 Đọc lại, nhớ lại ghi chú: 8']
+→ [3 Tách quyết định khỏi ý kiến tranh luận: 7'] ← BOTTLENECK
+→ [4 Viết biên bản + action item (người, hạn): 8'] ← BOTTLENECK
+→ [5 Gửi người tham dự: 2'] → [6 Sau 1 tuần chỉ còn ~50% action item được theo dõi]
+```
+
+### AI phản biện 3 card (chỉ nêu điểm yếu)
+
+| Câu hỏi | Card #1: Thay đổi đáng nói trước meetup | Card #2: Phân loại ticket | Card #3: Biên bản họp |
+|---|---|---|---|
+| 1. Actor đủ cụ thể chưa? | "EM/tech lead" là vai trò, chưa phải một người; mỗi team có thể làm khác nhau, hoặc không ai làm đều đặn | "CS trực" là vai trò; mỗi ca trực có thể phân loại theo thói quen riêng, chưa rõ ai chịu trách nhiệm khi gán sai | "PM/lead" quá rộng; kiểu cuộc họp (ra quyết định, brainstorm, báo cáo tiến độ) khác nhau nhiều, chưa chọn một loại cụ thể |
+| 2. Quy trình có thật không? | 7 bước và số phút dựng từ giả định; chưa biết người đó có thực sự đọc diff hay chỉ đọc tiêu đề PR | 1,5 phút/ticket là trung bình ước tính; ticket ngắn và ticket dài chắc chắn khác xa, chưa bấm giờ theo loại | 25 phút/cuộc chưa phân biệt cuộc 15 phút với cuộc 90 phút; nhiều người thực tế chỉ ghi vài dòng, không viết biên bản đầy đủ |
+| 3. Bottleneck có phải một bước cụ thể? | Bước 3 (đọc) và bước 4 (chờ người khác) khó tách; AI tóm tắt không rút ngắn thời gian chờ; nếu mô tả PR do agent viết kém thì AI tóm tắt cũng sai | Đọc, xác định loại và gán ưu tiên là một thao tác liền mạch, khó tách; phần chuyển nhóm lại (12%) có thể do quy tắc phân nhóm mơ hồ chứ không phải do CS đọc chậm | Tách "quyết định" khỏi "ý kiến" là phán đoán ngữ cảnh, khó tách khỏi bước viết; thiếu theo dõi sau họp là vấn đề hành vi, biên bản nhanh hơn cũng chưa chắc có người làm theo |
+| 4. Metric đo được không? | "Độ phủ" cần danh sách chuẩn gắn nhãn tay, tốn công; "đáng nói" là phán đoán chủ quan; baseline 170 phút chưa bấm giờ | Cần nhãn chuẩn để tính sai số; chưa rõ 12% chuyển nhóm có phải nhãn sai thật hay chỉ là thay đổi hợp lý; "ticket gấp không bị hạ mức" khó đo khi ca gấp hiếm | "Action item còn theo dõi sau 1 tuần" cần định nghĩa thế nào là còn theo dõi; "quyết định ghi sai" cần người chấm lại từng cuộc họp, tốn công |
+| 5. Sửa quy trình hoặc rule đã đủ chưa? | PR template + nhãn + release notes tự sinh bắt agent ghi tác động ngay lúc tạo PR có thể giải quyết gần hết, và rẻ hơn | Biểu mẫu bắt buộc chọn loại ticket, tách hộp thư theo nhóm và rule từ khóa có thể giảm phần lớn sai nhóm mà chưa cần AI | Mẫu biên bản cố định, người ghi chép luân phiên và nhắc việc trong công cụ quản lý công việc có thể đủ cho họp nhỏ |
+| 6. Có nhảy sang AI quá sớm không? | Gốc vấn đề là agent tạo thay đổi nhanh hơn khả năng theo dõi; thêm một lớp AI đọc output của AI có nguy cơ sai chồng sai mà không ai phát hiện | Chưa có số liệu rule từ khóa đạt bao nhiêu trước khi thêm AI; ticket khách dùng từ lóng, sai chính tả, mô tả lan man nên AI cũng dễ gán sai, và gán nhầm ticket khẩn thành thường có hậu quả lớn | Chưa thử mẫu biên bản thủ công; ghi âm cuộc họp có thể vướng nội dung nhạy cảm, và nhận dạng tiếng Việt trong họp nhiều người chưa kiểm chứng |
+| 7. Sản phẩm trên thị trường có giải tốt hơn không? | Công cụ tóm tắt PR và release notes tự sinh (ví dụ của GitHub, các công cụ review code, Jira/Linear) có thể đã làm phần lớn; cần xem lại hiện trạng trước khi tự xây | Công cụ helpdesk (Zendesk, Freshdesk...) đã có phân loại và định tuyến tự động; cần xem lại tính năng sẵn có trước khi tự xây | Nhiều sản phẩm ghi biên bản và rút action item sẵn có (công cụ họp online, ghi chép AI); cần so sánh trước khi tự xây |
 
 ### Điều chỉnh sau phản biện
 
-| Điểm yếu AI chỉ ra | Đồng ý? | Đã sửa gì |
-|---|---|---|
-| Baseline là ước tính, chưa bấm giờ | Đồng ý | Bấm giờ thật 2 tuần và đếm số PR; chọn một người cụ thể làm actor |
-| Rule (PR template + nhãn) có thể đủ | Đồng ý | Thử phương án Rule trước làm đối chứng; đưa yêu cầu "ghi tác động" vào PR template cho cả agent |
-| AI tóm tắt có thể sai chồng sai | Đồng ý | Quy tắc: mọi dòng trong digest phải có link PR, không có link thì không đưa vào; người duyệt trước khi trình bày |
-| Gợi ý để agent tự soạn và tự trình bày/gửi nội dung | Không đồng ý | Giữ "người chọn và duyệt nội dung" làm ranh giới |
-| Độ phủ khó đo | Đồng ý một phần | Tech lead gắn nhãn tay danh sách chuẩn trong 2 tuần đầu để làm mốc so sánh |
+| Card | Điểm yếu AI chỉ ra | Đồng ý? | Đã sửa gì |
+|---|---|---|---|
+| #1 | Baseline là ước tính, chưa bấm giờ | Đồng ý | Bấm giờ thật 2 tuần và đếm số PR; chọn một người cụ thể làm actor |
+| #1 | Rule (PR template + nhãn) có thể đủ | Đồng ý | Thử phương án Rule trước làm đối chứng; đưa yêu cầu "ghi tác động" vào PR template cho cả agent |
+| #1 | AI tóm tắt có thể sai chồng sai | Đồng ý | Quy tắc: mọi dòng trong digest phải có link PR, không có link thì không đưa vào; người duyệt trước khi trình bày |
+| #1 | Gợi ý để agent tự soạn và tự trình bày/gửi nội dung | Không đồng ý | Giữ "người chọn và duyệt nội dung" làm ranh giới |
+| #1 | Độ phủ khó đo | Đồng ý một phần | Tech lead gắn nhãn tay danh sách chuẩn trong 2 tuần đầu để làm mốc so sánh |
+| #2 | Rule từ khóa/biểu mẫu có thể đủ, chưa cần AI | Đồng ý | Thử Rule trước làm đối chứng; chỉ thêm AI cho phần ticket Rule không phân loại được |
+| #2 | Gán nhầm ticket khẩn thành thường có hậu quả lớn | Đồng ý | Ticket độ tin cậy thấp hoặc có dấu hiệu khẩn đi thẳng cho CS; AI không tự chuyển nhóm, CS duyệt; đặt fallback về phân loại tay |
+| #2 | 12% chuyển nhóm chưa rõ là nhãn sai hay thay đổi hợp lý | Đồng ý | Lấy mẫu ticket cũ, CS gắn nhãn chuẩn, đo sai số và baseline trước khi đặt ngưỡng dưới 6% |
+| #3 | Khó phân biệt đề xuất đang tranh luận với quyết định chính thức | Đồng ý | Chia 2 phase: ghi lại rồi review lọc nội dung rác; mục "chưa chốt" tách riêng; người chủ trì xác nhận quyết định trước khi gửi |
+| #3 | Mẫu biên bản và nhắc việc có thể đủ cho họp nhỏ | Đồng ý một phần | Thử mẫu cố định trước làm đối chứng; chỉ xét AI cho cuộc họp dài, nhiều người |
+| #3 | Ghi âm cuộc họp có thể vướng nội dung nhạy cảm | Đồng ý | Chỉ dùng cho cuộc họp được cho phép ghi; không đưa nội dung họp thật lên repo |
+| #3 | Gợi ý để AI tự gửi biên bản và giao việc | Không đồng ý | Giữ người chủ trì duyệt và gửi làm ranh giới |
 
 ---
+
 
 ## 4. Tôi đã tham gia phần nào (CP3 → CP7)
 
