@@ -1,9 +1,12 @@
 # Báo cáo cá nhân — 2A202603867_NguyenDinhMinh
 
-> **Bài lab:** Discovery & Problem Framing — Day 02  
-> **Phạm vi bản nháp:** CP1 (Scan problem) và CP2 (Top 3 Problem Cards + quy trình nháp).  
-> **Nguyên tắc bằng chứng:** Nhân vật và công ty là **hư cấu**. Các nghiên cứu thị trường chỉ minh họa rằng *loại vấn đề* có tồn tại; **không chứng minh NovaTech gặp vấn đề đó**. Tất cả thời gian quy trình bên dưới là **ước lượng minh họa để thiết kế phép đo, không phải baseline thật**.  
-> **Tính liêm chính:** Đây là bản nháp có AI hỗ trợ từ yêu cầu của học viên. Người học cần tự xem xét, chọn vấn đề thực sự hiểu, kiểm chứng với người thật và điều chỉnh trước khi nộp.
+> **Bài lab:** Discovery & Problem Framing — Day 02
+>
+> **Phạm vi:** CP1–CP2 về tuyển dụng; nhật ký tham gia CP3–CP6 và Reflection CP7 theo bài nhóm Performance Marketing.
+>
+> **Nguyên tắc bằng chứng:** Nhân vật NovaTech ở CP1–CP2 là **hư cấu**, thời gian các card là **ước lượng minh họa, chưa phải baseline thật**. Phần nhóm dẫn lại pitch, snapshot và interview trong [group report](../team/group_report.md), phân biệt số đã quan sát với target chưa thử nghiệm.
+>
+> **AI hỗ trợ:** Báo cáo có AI hỗ trợ biên tập; riêng Reflection được AI hỗ trợ soạn theo yêu cầu của học viên từ nội dung đã ghi trong repo. [RULES.md](../../RULES.md) yêu cầu CP7 do học viên tự viết; người học cần tự đối chiếu và diễn đạt lại theo trải nghiệm của mình trước khi nộp.
 
 ## 1. Thông tin học viên
 
@@ -12,6 +15,7 @@
 - **Email trường:** (không bắt buộc)
 - **Tên nhóm:** Hihihuhu
 - **Link repo nhóm:** https://github.com/minhh25/K5-L3B-Day02-Hihihuhu-DiscoveryProblemFraming
+- **Phần việc trong nhóm:** Tổng hợp báo cáo chung, pitch các vấn đề tuyển dụng và phản biện về tính xác thực, tiêu chí đánh giá, ranh giới quyết định; chi tiết ở mục 4 và [TEAM.md](../../TEAM.md#nguyendinhminh-2a202603867).
 
 ### Bối cảnh nhân vật dùng để phân tích
 
@@ -168,11 +172,11 @@ THỜI GIAN CHỜ NGƯỜI DUYỆT: chưa đo, không cộng vào 60 phút.
 - **Card chọn pitch:** **#1 — Đánh giá năng lực thực sự qua technical test** (tương ứng **Problem #7 ở CP1**).
 - **Vì sao:** Bối cảnh tuyển kỹ thuật rõ, Tech Lead có thể chỉ ra hành vi quan sát được; câu hỏi chất lượng đánh giá quan trọng hơn việc phỏng đoán ai có dùng công cụ hỗ trợ.
 - **Câu hỏi muốn nhóm phản biện:** “Nếu thay bài test tại nhà bằng một bài debugging hoặc cuộc trao đổi kỹ thuật có rubric, liệu đã giải quyết phần lớn vấn đề mà không cần AI chưa?”
-- **Trạng thái:** Chưa có cuộc pitch hay câu hỏi phản biện **thực tế từ nhóm** được cung cấp; không ghi tên người đã hỏi.
+- **Kết quả pitch theo báo cáo nhóm:** Ba card lần lượt là candidate **#4, #5, #6** ở mục 2.1 của [group report](../team/group_report.md#21-pitch). Hải phản biện card technical test về việc ứng viên dùng AI nhưng vẫn hiểu bài; card offer nhận câu hỏi của Hải, Hùng và Bảo; card JD nhận câu hỏi phân biệt thiếu thông tin với nhu cầu tuyển dụng thay đổi. Candidate #6 vào shortlist, đạt **24/35**; nhóm chọn #10 của Hùng, đạt **29/35**, để đào sâu ở CP4–CP6.
 
 ### 3.6. AI phản biện bản nháp CP2
 
-> Phần sau ghi **gợi ý phản biện của AI** trong quá trình xây dựng báo cáo, **không phải** phản biện đã nhận từ thành viên nhóm. Cột “Đã sửa gì” mô tả điều chỉnh của **bản nháp hiện tại**; người học cần xác nhận trước khi tự nhận là quyết định của mình.
+> Phần sau ghi **phản biện của AI** khi xây dựng CP2 và điều chỉnh trong bản báo cáo. Phản biện của thành viên nhóm được ghi riêng ở mục 4, có đối chiếu mục 2.1 của group report.
 
 | Điểm yếu AI chỉ ra | Đánh giá trong bản nháp | Điều chỉnh trong bản nháp |
 |---|---|---|
@@ -193,68 +197,83 @@ THỜI GIAN CHỜ NGƯỜI DUYỆT: chưa đo, không cộng vào 60 phút.
 
 ## 4. Tôi đã tham gia phần nào (CP3 → CP7)
 
-> **Chưa điền:** Phần này chỉ được cập nhật sau những hoạt động nhóm thực tế. Không tự tạo câu hỏi phản biện hoặc kết quả họp.
+Nhật ký được tổng hợp từ bảng pitch, kết luận nhóm và lịch sử commit. Những phần kiểm chứng do Hùng cung cấp được ghi đúng nguồn; tôi không nhận là người trực tiếp thực hiện các cuộc phỏng vấn đó.
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Pitch Problem Card | Trình bày 3 card: đánh giá năng lực qua technical test, trở ngại sau nhận offer và thống nhất yêu cầu tuyển dụng/JD; tương ứng #4–#6 của nhóm. | Làm rõ actor HR/Tech Lead/Hiring Manager; card JD vào shortlist. Các thời gian minh họa trong báo cáo cá nhân không được coi là số đo thực tế. |
+| Phản biện bài của bạn khác | Hỏi Hải (#1): thêm từ khóa vượt ATS khi không có kỹ năng thật có làm giảm chất lượng tuyển dụng? Hỏi Bảo (#7): thay đổi nào đáng báo cáo, mọi PR đều có giá trị với người dùng không? Hỏi Bảo (#9): phân biệt đề xuất đang tranh luận với quyết định chính thức thế nào? | Hải làm rõ giới hạn của tối ưu CV; Bảo bổ sung nhu cầu lấy tiêu chí từ Tech Lead và giữ người chủ trì xác nhận quyết định. Cả ba câu hỏi có ở group report mục 2.1. |
+| Nhận phản biện | Hải hỏi nếu dùng AI làm test nhưng vẫn hiểu và giải thích được thì sao; hỏi cách nhận biết ứng viên có offer tốt hơn và nguyên nhân JD đổi. Hùng hỏi hậu quả nếu không giải quyết, Bảo hỏi rủi ro nếu giải pháp sai ở card offer. | Điều chỉnh card #1 sang đánh giá khả năng hiểu/vận dụng; card #2 sang làm rõ trở ngại có thể xác minh, tránh chấm cam kết; card #3 tách yêu cầu thiếu rõ ràng với nhu cầu thay đổi hợp lý. |
+| Gom cluster / cây OST | Tổng hợp phần hội tụ trong báo cáo chung: #4/#5 thuộc cluster B, #6 thuộc cluster A; khi chuyển sang case Hùng, OST tập trung vào 1 outcome và 3 pain về lấy/đối chiếu/tổng hợp số liệu. | Gạch các ý “dashboard tự động”, “agent tự tắt quảng cáo”, “AI sửa tracking” khỏi tầng opportunity; giữ outcome giảm thời gian nhưng vẫn đối soát được số liệu. |
+| Chọn candidate problem | Tổng hợp bảng shortlist và lý do chọn/loại: #10 của Hùng 29/35, #7 của Bảo 27/35, #6 của tôi 24/35. | Case JD chưa có baseline và chưa rõ nguyên nhân; nhóm chọn #10 có phạm vi 9 TKQC/3 chi nhánh, đầu ra số học kiểm tra được. Điểm shortlist là đánh giá của nhóm, không phải dữ liệu thực nghiệm. |
+| Kiểm chứng / research | Tổng hợp phần giả định và research vào báo cáo chung; đối chiếu phần bổ sung của Hùng gồm snapshot 09/11/2026 và 3 interview ở mục 3.2. | Tách quan sát dashboard của thành viên nhóm khỏi interview ngoài nhóm; giữ tín hiệu phản bác “20 phút là bình thường”. SUMIFS, Looker Studio và Supermetrics là hướng tham khảo, chưa phải công cụ đã triển khai. |
+| Quy trình nhóm | Biên tập quy trình lấy chi phí → lấy CRM → đối chiếu → tính chỉ số → kiểm/gửi; nối với phương án tương lai có 2 bước Rule và 3 bước con người. Hùng bổ sung sơ đồ và handoff. | Giữ bước xử lý ngoại lệ và duyệt; khi rule/schema/đối soát lỗi thì dừng gửi, quay về đối chiếu thủ công. Phân rã thời gian hiện tại và target tương lai đều phải đo lại. |
+| Problem Statement | Tổng hợp v0 và v1 trong báo cáo chung; v1 bổ sung điều kiện dữ liệu, kiểm đủ nguồn, đối soát tổng, quy tắc mẫu số và truy ngoại lệ. | Metric bao gồm chất lượng cùng tốc độ; không dùng doanh thu tổng làm ROAS khi thiếu căn cứ quy thuộc quảng cáo. Không coi báo cáo nhanh nhưng sai là đạt. |
+| Mức can thiệp AI | Tổng hợp so sánh No AI / Rule / Workflow / Agent theo bài toán số học có quy tắc; phân biệt nhiều nguồn dữ liệu với nhu cầu AI tự quyết. | Hướng ưu tiên là Rule, AI intervention point là “Không có”. No AI vẫn là đối chứng; nếu mẫu thủ công đã đạt target với ít công duy trì hơn thì giữ mức đó. |
+| Quyết định | Tổng hợp đánh giá Value TB, Usability TB, Feasibility Cao, Viability Cao và kết luận Not Yet đã được nhóm xác nhận trong báo cáo chung. | Chưa pilot trên dữ liệu thật; cần quyền dùng dữ liệu, bản xuất, quy tắc chỉ số và baseline ít nhất 2 kỳ. Kế hoạch sau đó mới là 4 báo cáo/2 tuần, có ngưỡng dừng. |
+
+**Dấu vết đóng góp:** Commit `b9ec804` thêm báo cáo cá nhân của tôi và cập nhật báo cáo nhóm; commit `e4124f0` tiếp tục biên tập báo cáo nhóm. Phần interview được bổ sung ở `3f99bdf`, phần sơ đồ/handoff ở `6393379` của Hùng. Nội dung pitch đối chiếu thêm với mục 4 trong báo cáo của [Hải](2A202603820_NguyenDinhVuHai.md) và [Bảo](2A202603858_DoanXuanDuyBao.md).
 
 ---
 
 ## 5. Dùng AI
 
-> Đây là nhật ký **những lần sử dụng AI có thể xác định trong quá trình biên tập bản nháp này**, không khẳng định học viên đã tự thực hiện mọi hoạt động được nêu. Cần chỉnh sửa cột cuối theo đánh giá thực tế của học viên.
+Nhật ký phân biệt AI hỗ trợ bản cá nhân với AI hỗ trợ biên tập chung đã được ghi trong group report. Việc tổng hợp lại nội dung pitch và interview không tạo ra một cuộc phản biện hoặc phỏng vấn mới.
 
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| CP1 Scan | Hỗ trợ đề xuất và sắp xếp 10 vấn đề tuyển dụng theo bốn lăng kính; gợi ý nguồn nghiên cứu. | Mở rộng khỏi các bài toán lọc CV, xếp lịch, feedback quen thuộc. | Dễ nhầm dữ liệu khảo sát thị trường với dấu hiệu thật của công ty hư cấu, hoặc khẳng định vấn đề “chưa được giải quyết”. | **Cần học viên xác nhận:** kiểm từng Job Story và ghi rõ “chưa xác minh”, chỉ trích nguồn làm bối cảnh. |
-| CP2 Problem Card | Hỗ trợ phác thảo Top 3, sơ đồ bước, phản biện các bottleneck và metric. | Chỉ ra cần đo chất lượng, tách thời gian chờ và thời gian thao tác; nhắc phương án No AI. | Các số phút và target có thể chỉ là ước lượng, không phải baseline quan sát. | **Cần học viên xác nhận:** thay mọi ước lượng bằng kết quả ghi nhận thật; không dùng AI đánh giá tính trung thực của ứng viên. |
-| CP4 Research | **Chưa thực hiện hoạt động nhóm.** | | | |
-| CP5 Quy trình | **Chưa thực hiện hoạt động nhóm.** | | | |
-| CP5–6 Problem Statement | **Chưa thực hiện hoạt động nhóm.** | | | |
-| CP6 Mức can thiệp / quyết định | **Chưa thực hiện hoạt động nhóm.** | | | |
+| CP1 Scan | Hỗ trợ mở rộng và sắp xếp 10 vấn đề tuyển dụng theo bốn lăng kính; gợi ý tài liệu. | Mở rộng góc nhìn ngoài lọc CV, xếp lịch và tổng hợp feedback. | Nguồn thị trường không chứng minh pain tại NovaTech; nhân vật vẫn là hư cấu. | Bản báo cáo phân loại nguồn bên ngoài và bằng chứng chưa có; giữ yêu cầu bổ sung trải nghiệm thật, không tự điền số liệu. |
+| CP2 Problem Card | Hỗ trợ phác thảo Top 3, quy trình và phản biện bottleneck/metric. | Chỉ ra cần đo chất lượng, tách chờ với thao tác, cân nhắc No AI. | Số phút là ước lượng; dễ chuyển vấn đề năng lực thành suy đoán gian lận hoặc mức cam kết. | Ghi nhãn thời gian minh họa; chuyển sang khả năng giải thích bài, trở ngại có thể xác minh và nguyên nhân đổi JD; giữ người đánh giá. |
+| CP4 Research | AI hỗ trợ tổng hợp bảng giải pháp trong báo cáo nhóm; lần biên tập này dùng lại kết quả đã có. | Đặt công cụ vào đúng bước: tổng hợp số, kết hợp nguồn, nạp dữ liệu. | Tính năng trong tài liệu không chứng minh connector, quyền hay dữ liệu của case đã phù hợp. | Giữ điều kiện phải thử bản xuất và xác nhận quyền; không ghi đã mua/tích hợp công cụ. Mốc kiểm link 09/11/2026 được dẫn theo group report, không nhận là lần kiểm mới của tôi. |
+| CP5 Quy trình | AI hỗ trợ trình bày quy trình hiện tại/tương lai theo mô tả case. | Tách lấy dữ liệu, kiểm/đối chiếu, xử lý ngoại lệ, tính toán và duyệt. | Dễ biến phân rã 15/5/15/7/3 phút thành số đã đo và coi bước 3 chắc chắn nghẽn nhất. | Ghi rõ phân rã minh họa; yêu cầu đo từng bước ở ít nhất 2 kỳ, giữ cả thời gian lấy dữ liệu trong phạm vi so sánh. |
+| CP5–6 Problem Statement | AI phản biện v0 của nhóm và hỗ trợ rà soát nội dung giữa các mục. | Chỉ ra lỗ hổng chỉ đo thời gian; gợi ý thêm chất lượng và truy nguồn. | Metric chất lượng chung chung chưa đủ nếu thiếu quy tắc doanh thu, mẫu số, kỳ và tiền tệ. | v1 giữ yêu cầu đủ 9 TKQC/3 chi nhánh, đối soát tổng, xử lý ngoại lệ và không xuất ROAS số khi thiếu attribution. |
+| CP6 Mức can thiệp / quyết định | AI hỗ trợ so sánh 4 mức trong bản phân tích nhóm. | Làm rõ Rule có thể kiểm/tính theo logic cố định. | Thêm AI viết nhận định hoặc chọn Agent vì nhiều nguồn sẽ mở rộng quá phạm vi đã kiểm chứng. | Giữ Rule là hướng ưu tiên có điều kiện; No AI là đối chứng; kết luận Not Yet vì dữ liệu và quyền vận hành còn rủi ro Cao. |
+| CP7 Tổng hợp cá nhân / Reflection | Theo yêu cầu của tôi, AI đọc repo, điền nhật ký và hỗ trợ soạn mục 6 từ các sự kiện đã ghi. | Nối phản biện tôi nhận với điều chỉnh card, và liên hệ bài tuyển dụng với case nhóm. | AI không biết cảm nhận cá nhân ngoài tài liệu; có thể gán đóng góp của người khác cho tôi hoặc lặp câu chữ của bạn khác. | Báo cáo dẫn nguồn đóng góp, không nhận tôi trực tiếp phỏng vấn; công khai phần soạn có AI hỗ trợ để tôi đối chiếu và tự diễn đạt lại trước khi nộp. |
 
 ---
 
 ## 6. Reflection (CP7)
 
-> **Chưa thực hiện.** Theo quy định repo, các mục 6.1–6.6 cần có tổng cộng **tối thiểu 200 từ** và **phải do học viên tự viết theo trải nghiệm thật**, không nhờ AI viết thay.
+> Bản Reflection dưới đây được AI hỗ trợ soạn theo yêu cầu, dựa vào tình huống đã ghi trong repo. Mục 6.1–6.6 đáp ứng độ dài tối thiểu 200 từ; phần tự thuật cần được Minh đối chiếu với trải nghiệm và tự diễn đạt lại theo yêu cầu CP7 của môn học.
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
 
+Qua các card của Hải, tôi thấy cùng một hoạt động tuyển dụng có thể được nhìn rất khác từ phía ứng viên và phía HR. Ứng viên muốn hồ sơ được đọc đúng năng lực; người tuyển dụng cần có bằng chứng để đánh giá năng lực đó. Câu hỏi tôi đặt về việc thêm từ khóa vượt ATS giúp làm rõ rằng tối ưu cách trình bày phải đi cùng nội dung có thật. Với Bảo, điều tôi chú ý là tiêu chí “đáng báo cáo” và “đã quyết định” cần người chịu trách nhiệm xác nhận. Case của Hùng cho tôi một cách tiếp cận cụ thể hơn: xác định nguồn dữ liệu, bước đối chiếu và cách kiểm kết quả trước khi nghĩ đến công cụ.
 
 **6.2. Nhóm có lúc nào bị “solution-first” (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
 
+Có, những ý “dashboard tự động”, “agent tự tắt quảng cáo” và “AI sửa tracking” xuất hiện trong phần rà soát OST của nhóm. Các ý này chưa nói rõ người dùng đang kẹt ở bước nào, đồng thời mở rộng từ báo cáo sang sửa dữ liệu và quyết định ngân sách. Nhóm gạch chúng khỏi tầng opportunity và quay về ba pain: lấy chi phí từ nhiều tài khoản, đối chiếu đúng kỳ/chi nhánh và truy nguồn khi lệch. Khi viết lại theo cách đó, tôi hiểu vì sao nhiều nguồn dữ liệu chưa đủ để kết luận cần Agent. Phép cộng và tính tỷ lệ có thể làm bằng Rule nếu đầu vào và quy tắc đã rõ.
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
 
+Câu hỏi của Hải ở card technical test làm tôi phải chỉnh cách đặt vấn đề: “Nếu ứng viên dùng AI nhưng vẫn hiểu và giải thích được thì sao?”. Nếu chỉ tập trung xem bài có được AI hỗ trợ hay không, tôi có thể đánh giá sai người thực sự có năng lực. Vì vậy, card của tôi chuyển trọng tâm sang khả năng giải thích lựa chọn, kiểm tra kết quả và xử lý khi yêu cầu thay đổi. Người chấm cần rubric và dẫn chứng thay vì suy đoán công cụ ứng viên đã dùng. Với card offer, các câu hỏi về offer khác và rủi ro khi dự đoán sai cũng khiến tôi thu hẹp mục tiêu về làm rõ trở ngại, thay vì cố chấm “độ cam kết” của ứng viên.
 
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
 
+Điểm đáng chú ý trong bằng chứng nhóm là Người 2 đã tự viết macro Excel nhưng vẫn nói “20 phút là bình thường”. Có hành vi tìm cách cải thiện không đồng nghĩa pain đủ lớn để đầu tư một hệ thống mới. Tôi cũng phải phân biệt thời gian lọc trùng khoảng 20 phút của người này với tổng quy trình 45 phút trong pitch của Hùng; hai con số khác người và có thể khác phạm vi đo. Snapshot do Hùng cung cấp còn có cảnh báo “23 TKQC lỗi” và mốc quét Business Manager cũ gần 7 tuần. Đây là lý do cần kiểm đầu vào, nhưng chưa đủ để kết luận cả 9 tài khoản đang báo cáo đều sai hoặc Rule đã khắc phục được lỗi nguồn.
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
 
+Khó nhất với tôi là giữ từng nhận định đúng mức bằng chứng. Các card HR của tôi vẫn dùng bối cảnh giả định, nên không thể lấy nghiên cứu thị trường làm bằng chứng cho NovaTech. Trong bài nhóm, 45 phút là ước lượng từ pitch, còn 30 phút là target; phân rã từng bước chưa được bấm giờ. Một khó khăn nữa là viết metric đủ chặt: giảm thời gian mà bỏ sót tài khoản, cộng trùng chi phí hoặc dùng sai doanh thu cho ROAS thì báo cáo vẫn thất bại. Vì vậy, v1 phải gắn thời gian với đủ nguồn, đối soát tổng và xử lý ngoại lệ, đồng thời chỉ rõ khi nào chưa đủ dữ liệu để xuất chỉ số.
 
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
 
+Tôi sẽ bắt đầu CP1 từ những tình huống mình trực tiếp biết hoặc hỏi được người thật, rồi mới dùng AI mở rộng. Với ba card tuyển dụng, tôi cần lấy ví dụ đã xảy ra và đo thao tác thực tế trước khi xếp hạng. Khi làm nhóm, tôi sẽ hỏi sớm hơn về phạm vi đo, người duyệt, quyền dùng bản xuất và quy tắc doanh thu. Tôi cũng muốn phản biện kỹ giá trị của mức tiết kiệm dự kiến 30 phút/tuần: công chuẩn hóa và duy trì có lớn hơn lợi ích không? Trước khi thêm tự động hóa, tôi sẽ yêu cầu so sánh với mẫu/checklist thủ công đã chuẩn hóa trên cùng dữ liệu. Nếu cách đơn giản đó đã đạt mục tiêu thì nên giữ nó.
 
 **6.7. Hiểu bài:** Giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
 
+Vấn đề nhóm chọn là Performance Marketer phải tổng hợp chi phí của 9 TKQC và đối chiếu doanh thu CRM của 3 chi nhánh, theo pitch khoảng 45 phút/lần, hai lần mỗi tuần. Quy trình hiện tại gồm lấy chi phí, lấy CRM, đối chiếu kỳ/chi nhánh, tính chỉ số rồi kiểm và gửi; bước đối chiếu là bottleneck giả định cần đo cùng bước lấy dữ liệu. Target là tối đa 30 phút/báo cáo, kèm đủ nguồn, tổng tiền khớp bản xuất theo quy tắc đã chốt và mọi ngoại lệ được hiển thị để xử lý. Boundary là chỉ dùng bản xuất được phép, không ghi ngược CRM/TKQC, không tự sửa tracking, suy nguồn đơn, kết luận lợi nhuận hay điều chỉnh ngân sách; marketer kiểm trước khi gửi và chuyển quản lý duyệt, còn ROAS thiếu căn cứ thì ghi “chưa đủ dữ liệu”. Nhóm ưu tiên Rule vì các phép kiểm và tính số có quy tắc cố định, giữ con người lấy dữ liệu, xử lý ngoại lệ và duyệt; chưa có điểm can thiệp AI. Quyết định là Not Yet do Feasibility và Viability còn Cao, cần chốt quyền dùng dữ liệu, bản xuất, quy tắc doanh thu và baseline ít nhất hai kỳ trước khi thử bốn báo cáo trong hai tuần. Khi báo cáo sai tổng/công thức, thiếu nguồn hoặc còn ngoại lệ ảnh hưởng chỉ số thì dừng gửi và đối soát thủ công; nếu sau bốn kỳ không giảm trung bình ít nhất 15 phút/lần hoặc có từ hai kỳ vượt 30 phút thì chưa mở rộng.
 
 ---
 
 ## 7. Tài liệu tham khảo
 
+- **Bài nhóm và kết luận CP3–CP6:** [group_report.md](../team/group_report.md), đặc biệt mục 2.1 (pitch/phản biện), 3.2 (interview), 4 (quy trình), 7 (v1/eval) và 8 (Not Yet/ngưỡng dừng).
+- **Quan sát do Hùng cung cấp:** [cp1-tkqc-snapshot.md](../assets/cp1-tkqc-snapshot.md), 09/11/2026; dùng tham chiếu bài nhóm, không phải bằng chứng nội bộ cho các card HR của tôi.
+- **Đối chiếu câu hỏi phản biện:** mục 4 trong báo cáo của [Nguyễn Đình Vũ Hải](2A202603820_NguyenDinhVuHai.md) và [Đoàn Xuân Duy Bảo](2A202603858_DoanXuanDuyBao.md); không dùng reflection của các bạn làm nội dung cá nhân.
+- **Phân công và bằng chứng đóng góp:** [TEAM.md](../../TEAM.md).
 
+Các nguồn bên ngoài [S1]–[S8] dưới đây được giữ từ bản CP1–CP2; lần hoàn thiện CP3–CP7 này không bổ sung nghiên cứu hay xác nhận lại nội dung các trang đó.
 
 - **[S1] SHRM (2026).** *2026 Talent Trends* — khó khăn tuyển dụng và thiếu hụt kỹ năng. https://www.shrm.org/topics-tools/research/2026-talent-trends
 - **[S2] CV-Library (2026).** *Candidate Behaviour Barometer 2026* — kỳ vọng ứng viên, offer và hành vi ứng tuyển; khảo sát thị trường của nền tảng tuyển dụng, không đại diện cho mọi nơi. https://www.cv-library.co.uk/recruitment-insight/candidate-behaviour-barometer-2026-the-recruitment-trust-gap/
