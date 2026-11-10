@@ -177,7 +177,7 @@ HIỆN TẠI — ~25 phút/cuộc × ~15 cuộc/tuần (ước tính, cần bấ
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
 | CP1 Scan | Khám phá quy trình và suggest vấn đề| Ở phần đưa ra 1 số quy trình làm việc của các role | Suggest case quá giống bài mẫu| Thay thế case|
-| CP2 Problem Card | Không dùng | Không | Không | Không|
+| CP2 Problem Card | Dùng AI phản biện 3 Problem Card (7 câu hỏi: actor, quy trình, bottleneck, metric, rule đủ chưa, nhảy sang AI quá sớm, sản phẩm có sẵn) | Chỉ ra điểm yếu về baseline chưa bấm giờ, Rule/biểu mẫu có thể đủ, nguy cơ AI sai chồng sai | Một số điểm yếu chung chung, chưa gắn với dữ liệu thật của từng case | Chọn điểm yếu đồng ý (thêm đối chứng Rule, fallback, người duyệt), giữ ranh giới không cho AI tự soạn/gửi/chuyển nhóm |
 | CP4 Research | Không dùng | Không | Không | Không |
 | CP5 Quy trình | Nhóm dùng AI hỗ trợ biên tập quy trình hiện tại/tương lai của nhóm | Giúp tách rõ bước nào Rule, bước nào con người, thêm phương án quay về | Thời gian từng bước chỉ là phân rã minh họa, chưa có số đo thật | Nhóm ghi rõ "minh họa, chưa bấm giờ" và giữ yêu cầu đo lại 2 kỳ |
 | CP5–6 Problem Statement | Nhóm dùng AI phản biện Problem Statement v0 | Chỉ ra v0 chỉ có mục tiêu thời gian nên báo cáo nhanh nhưng lệch số vẫn "đạt" | Đề xuất ban đầu chưa nêu mẫu số %CPQC/ROAS | Nhóm đồng ý bổ sung đối soát tổng, truy nguồn, quy tắc mẫu số vào v1 |
